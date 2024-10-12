@@ -25,10 +25,8 @@ public abstract class ManagerPaneView<T extends Model> extends JPanel {
 
     public ManagerPaneView() {
         initComponents();
-        tblData.getTableHeader().setFont(new Font("Segoe UI", Font.BOLD, 12));
+        tblData.getTableHeader().setFont(new Font("Segoe UI", Font.BOLD, 14));
         tblData.getTableHeader().setOpaque(false);
-        tblData.getTableHeader().setBackground(new Color(51, 175, 255));
-        tblData.getTableHeader().setForeground(new Color(255, 255, 255));
         ((DefaultTableCellRenderer) tblData.getTableHeader().getDefaultRenderer())
                 .setHorizontalAlignment(JLabel.LEFT);
         tblData.setAutoCreateRowSorter(true);
@@ -163,8 +161,7 @@ public abstract class ManagerPaneView<T extends Model> extends JPanel {
         jPanel2 = new javax.swing.JPanel();
         txtSearch = new javax.swing.JTextField();
         cboSearchField = new javax.swing.JComboBox<>();
-
-        setBackground(new java.awt.Color(118, 215, 196));
+        setBackground(new java.awt.Color(250, 212, 192));
         setAlignmentX(0.0F);
         setAlignmentY(0.0F);
         setPreferredSize(new java.awt.Dimension(1008, 680));

@@ -22,9 +22,9 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="0" red="ff" type="rgb"/>
+          <Color blue="20" green="0" red="80" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Tr&#x1ea7;n &#x110;&#x1ee9;c C&#x1b0;&#x1edd;ng"/>
+        <Property name="text" type="java.lang.String" value="Nguy&#x1ec5;n Thanh H&#x1ead;u"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -34,7 +34,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lbAddress">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Nghi V&#x103;n, Nghi L&#x1ed9;c, Ngh&#x1ec7; An"/>
+        <Property name="text" type="java.lang.String" value="Qu&#x1ead;n 12, TP HCM"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -47,7 +47,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="(0911175581)"/>
+        <Property name="text" type="java.lang.String" value="(0987645654)"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">

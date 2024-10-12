@@ -113,7 +113,6 @@ public class AdminDashboardController {
         menuQLDH.addSubMenu(new MenuItem("QLB", im.getIcon("table_25px.png"), "Quản lý bàn"));
         menuQLDH.addSubMenu(new MenuItem("QLKH", im.getIcon("technical_support_25px.png"), "Quản lý khách hàng"));
         menuQLDH.addSubMenu(new MenuItem("QLDDH", im.getIcon("purchase_order_25px.png"), "Quản lý đơn đặt hàng"));
-        menuQLDH.addSubMenu(new MenuItem("QLGH", im.getIcon("truck_25px.png"), "Quản lý giao hàng"));
         menuTK.addSubMenu(new MenuItem("TKNV", im.getIcon("user_25px.png"), "Thống kê nhân viên"));
         menuTK.addSubMenu(new MenuItem("TKDT", null, "Thống kê doanh thu"));
         menuTL.addSubMenu(new MenuItem("TTCN", im.getIcon("about_25px.png"), "Thông tin cá nhân"));
@@ -174,11 +173,6 @@ public class AdminDashboardController {
                 view.setPanel(foodItemManagerView);
                 foodItemManagerController.setView(foodItemManagerView);
                 foodItemManagerController.updateData();
-                break;
-            case "QLGH"://Quản lý giao hàng
-                view.setPanel(shipmentManagerView);
-                shipmentManagerController.setView(shipmentManagerView);
-                shipmentManagerController.updateData();
                 break;
             case "QLHH":
             case "QLDH":

@@ -35,8 +35,8 @@ public class CustomerRenderJList extends javax.swing.JPanel implements ListCellR
         setLayout(new java.awt.GridBagLayout());
 
         lbName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lbName.setForeground(new java.awt.Color(255, 0, 0));
-        lbName.setText("Trần Đức Cường");
+        lbName.setForeground(new java.awt.Color(128, 0, 32));
+        lbName.setText("Nguyễn Thanh Hậu");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -47,7 +47,7 @@ public class CustomerRenderJList extends javax.swing.JPanel implements ListCellR
         gridBagConstraints.insets = new java.awt.Insets(5, 5, 5, 5);
         add(lbName, gridBagConstraints);
 
-        lbAddress.setText("Nghi Văn, Nghi Lộc, Nghệ An");
+        lbAddress.setText("Quận 12, TP HCM");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
@@ -60,7 +60,7 @@ public class CustomerRenderJList extends javax.swing.JPanel implements ListCellR
         add(lbAddress, gridBagConstraints);
 
         lbPhoneNumber.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        lbPhoneNumber.setText("(0911175581)");
+        lbPhoneNumber.setText("(0987645654)");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;

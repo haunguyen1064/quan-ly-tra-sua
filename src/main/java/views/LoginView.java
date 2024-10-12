@@ -70,14 +70,15 @@ public class LoginView extends javax.swing.JFrame {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setResizable(false);
 
-        jPanel4.setBackground(new java.awt.Color(87, 184, 70));
+        jPanel4.setBackground(new java.awt.Color(128, 0, 32));
+        jPanel4.setForeground(new java.awt.Color(0, 255, 102));
         jPanel4.setMaximumSize(new java.awt.Dimension(400, 75));
         jPanel4.setMinimumSize(new java.awt.Dimension(400, 75));
         jPanel4.setPreferredSize(new java.awt.Dimension(400, 75));
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setBackground(new java.awt.Color(153, 255, 153));
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(245, 245, 220));
         jLabel3.setText("Đăng Nhập");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -106,10 +107,15 @@ public class LoginView extends javax.swing.JFrame {
         lblRegister.setForeground(new java.awt.Color(0, 132, 255));
         lblRegister.setText("Chưa có tài khoản?");
 
-        btnLogin.setBackground(new java.awt.Color(87, 184, 70));
+        btnLogin.setBackground(new java.awt.Color(128, 0, 32));
         btnLogin.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnLogin.setForeground(new java.awt.Color(255, 255, 255));
+        btnLogin.setForeground(new java.awt.Color(245, 245, 220));
         btnLogin.setText("Đăng Nhập");
+        btnLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLoginActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -153,7 +159,7 @@ public class LoginView extends javax.swing.JFrame {
         jPanel3.add(txtPassword, gridBagConstraints);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setText("Username:");
+        jLabel1.setText("Tài Khoản");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -163,7 +169,7 @@ public class LoginView extends javax.swing.JFrame {
         jPanel3.add(jLabel1, gridBagConstraints);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel2.setText("Password:");
+        jLabel2.setText("Mật Khẩu");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
@@ -200,6 +206,10 @@ public class LoginView extends javax.swing.JFrame {
     private void txtPasswordKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPasswordKeyPressed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtPasswordKeyPressed
+
+    private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnLoginActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;

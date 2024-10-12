@@ -61,7 +61,7 @@ public class InformationView extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(1008, 680));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setBackground(new java.awt.Color(251, 133, 95));
+        jPanel1.setBackground(new java.awt.Color(218, 165, 32));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(10, 15, 10, 15));
         jPanel1.setPreferredSize(new java.awt.Dimension(170, 680));
         jPanel1.setLayout(new java.awt.GridBagLayout());

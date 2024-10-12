@@ -127,10 +127,16 @@ public class ChangePassView extends javax.swing.JFrame {
         jPanel3.setPreferredSize(new java.awt.Dimension(194, 50));
         jPanel3.setLayout(new java.awt.GridBagLayout());
 
-        btnConfirm.setBackground(new java.awt.Color(99, 209, 154));
+        btnConfirm.setBackground(new java.awt.Color(128, 0, 32));
+        btnConfirm.setForeground(new java.awt.Color(245, 245, 220));
         btnConfirm.setText("Xác nhận");
         btnConfirm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnConfirm.setSelected(true);
+        btnConfirm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnConfirmActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -157,11 +163,13 @@ public class ChangePassView extends javax.swing.JFrame {
 
         getContentPane().add(jPanel3, java.awt.BorderLayout.PAGE_END);
 
-        jPanel4.setBackground(new java.awt.Color(41, 207, 124));
+        jPanel4.setBackground(new java.awt.Color(128, 0, 32));
+        jPanel4.setForeground(new java.awt.Color(245, 245, 220));
         jPanel4.setLayout(new java.awt.GridBagLayout());
 
         jLabel1.setBackground(new java.awt.Color(41, 207, 124));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(245, 245, 220));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Đổi Mật Khẩu");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -178,6 +186,10 @@ public class ChangePassView extends javax.swing.JFrame {
     private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelActionPerformed
+
+    private void btnConfirmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConfirmActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnConfirmActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancel;

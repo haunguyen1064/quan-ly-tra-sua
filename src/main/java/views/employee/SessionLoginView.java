@@ -55,7 +55,7 @@ public class SessionLoginView extends javax.swing.JPanel {
         setLayout(new java.awt.GridBagLayout());
 
         lbStartTime.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lbStartTime.setText("12/01/2021 19:12:02");
+        lbStartTime.setText("12/10/2024 19:12:02");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -66,7 +66,7 @@ public class SessionLoginView extends javax.swing.JPanel {
         add(lbStartTime, gridBagConstraints);
 
         lbEndTime.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lbEndTime.setText("12/01/2021 19:12:02");
+        lbEndTime.setText("12/10/2024 19:12:02");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
