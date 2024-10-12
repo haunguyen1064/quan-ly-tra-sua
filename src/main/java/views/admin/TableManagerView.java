@@ -4,9 +4,8 @@ import javax.swing.DefaultComboBoxModel;
 import models.Table;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class TableManagerView extends ManagerPaneView<Table> {
 

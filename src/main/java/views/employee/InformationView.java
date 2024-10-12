@@ -9,10 +9,6 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/**
- *
- * @author Admin
- */
 public class InformationView extends javax.swing.JPanel {
 
     /**

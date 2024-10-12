@@ -28,9 +28,8 @@ import views.popup.ShipmentPopupView;
 import views.popup.ToppingPopupView;
 
 /**
- * createAt Dec 17, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  * Popup controller mẫu
  */
 public class OrderPopupController {

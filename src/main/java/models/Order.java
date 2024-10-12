@@ -6,10 +6,6 @@ import java.sql.Timestamp;
 import utils.OrderStatus;
 import utils.OrderType;
 
-/**
- *
- * @author MSI
- */
 public class Order extends Model {
 
     private int id, idEmployee, idTable;

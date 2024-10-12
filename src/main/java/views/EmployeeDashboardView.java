@@ -13,10 +13,6 @@ import javax.swing.JPanel;
 import utils.ErrorPopup;
 import views.admin.MenuItem;
 
-/**
- *
- * @author Admin
- */
 public class EmployeeDashboardView extends javax.swing.JFrame {
 
     /**

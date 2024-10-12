@@ -12,9 +12,8 @@ import views.LoginView;
 import views.admin.HomeView;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class LoginController {
 

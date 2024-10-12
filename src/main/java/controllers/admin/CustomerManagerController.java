@@ -12,9 +12,8 @@ import models.Customer;
 import views.popup.CustomerPopupView;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class CustomerManagerController extends ManagerController {
 

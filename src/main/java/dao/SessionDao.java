@@ -9,9 +9,8 @@ import java.util.ArrayList;
 import models.Session;
 
 /**
- * createAt Dec 24, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class SessionDao extends Dao<Session> {
 

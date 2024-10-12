@@ -8,9 +8,8 @@ import models.OrderItem;
 import utils.ImageManager;
 
 /**
- * createAt Dec 13, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class OrderItemPane extends javax.swing.JPanel {
 

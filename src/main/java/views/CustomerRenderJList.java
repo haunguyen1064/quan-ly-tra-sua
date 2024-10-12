@@ -13,9 +13,8 @@ import javax.swing.ListCellRenderer;
 import models.Customer;
 
 /**
- * createAt Dec 31, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class CustomerRenderJList extends javax.swing.JPanel implements ListCellRenderer<Customer> {
 

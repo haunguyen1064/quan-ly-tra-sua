@@ -9,10 +9,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 
-/**
- *
- * @author Admin
- */
 public class WorkDay {
 
     private int amount, totalAmount, bonus;

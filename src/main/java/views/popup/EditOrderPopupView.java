@@ -16,9 +16,8 @@ import models.Table;
 import utils.ErrorPopup;
 
 /**
- * createAt Dec 21, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class EditOrderPopupView extends javax.swing.JFrame implements PopupView {
 

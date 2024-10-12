@@ -5,9 +5,8 @@ import java.util.TimerTask;
 import main.SessionManager;
 
 /**
- * createAt Jan 11, 2021
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class TimeCouterController {
 

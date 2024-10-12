@@ -10,9 +10,8 @@ import java.util.Calendar;
 import views.employee.WorkDayInfoView;
 
 /**
- * createAt Jan 9, 2021
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class WorkDayInfoController {
 

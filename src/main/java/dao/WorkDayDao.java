@@ -14,10 +14,6 @@ import java.util.ArrayList;
 import models.WorkDay;
 import utils.OrderStatus;
 
-/**
- *
- * @author Admin
- */
 public class WorkDayDao {
 
     Connection conn = Database.getInstance().getConnection();

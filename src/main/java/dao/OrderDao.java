@@ -13,10 +13,6 @@ import java.util.ArrayList;
 import models.Order;
 import utils.OrderStatus;
 
-/**
- *
- * @author MSI
- */
 public class OrderDao extends Dao<Order> {
 
     EmployeeDao employeeDao = new EmployeeDao();

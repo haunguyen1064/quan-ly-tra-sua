@@ -4,9 +4,8 @@ import javax.swing.DefaultComboBoxModel;
 import models.FoodCategory;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class FoodCategoryManagerView extends ManagerPaneView<FoodCategory> {
 

@@ -26,10 +26,7 @@ import views.admin.OrderManagerView;
 import views.admin.ShipmentManagerView;
 import views.employee.InformationView;
 
-/**
- *
- * @author Admin
- */
+
 public class EmployeeDashboardController {
 
     private EmployeeDashboardView view;

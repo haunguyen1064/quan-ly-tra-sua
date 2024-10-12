@@ -9,9 +9,8 @@ import java.util.Optional;
 import utils.LoadConfig;
 
 /**
- * createAt Dec 16, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class BackupData {
 

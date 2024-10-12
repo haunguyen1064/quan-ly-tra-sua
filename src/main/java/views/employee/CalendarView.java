@@ -13,10 +13,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import utils.ErrorPopup;
 
-/**
- *
- * @author Admin
- */
 public class CalendarView extends javax.swing.JPanel {
 
     /**

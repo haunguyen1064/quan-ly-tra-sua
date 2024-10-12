@@ -4,10 +4,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- *
- * @author MSI
- */
 public class LoadConfig {
 
     private static final String CONFIG_PATH = "/config.properties";

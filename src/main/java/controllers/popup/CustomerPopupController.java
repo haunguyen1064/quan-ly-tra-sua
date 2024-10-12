@@ -8,9 +8,8 @@ import models.Customer;
 import views.popup.CustomerPopupView;
 
 /**
- * createAt Dec 17, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class CustomerPopupController {
 

@@ -20,9 +20,8 @@ import views.popup.AddOrderPopupView;
 import views.popup.EditOrderPopupView;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  * Manager Controller mẫu
  */
 public class OrderManagerController extends ManagerController {

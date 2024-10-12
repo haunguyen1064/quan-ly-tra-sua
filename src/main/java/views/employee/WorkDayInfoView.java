@@ -11,10 +11,6 @@ import java.beans.PropertyVetoException;
 import java.beans.VetoableChangeListener;
 import javax.swing.JLabel;
 
-/**
- *
- * @author Admin
- */
 public class WorkDayInfoView extends javax.swing.JFrame {
 
     /**

@@ -7,10 +7,6 @@ package views.employee;
 
 import javax.swing.JLabel;
 
-/**
- *
- * @author Admin
- */
 public class DayView extends javax.swing.JPanel {
 
     public DayView() {

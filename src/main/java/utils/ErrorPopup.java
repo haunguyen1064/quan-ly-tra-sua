@@ -4,10 +4,6 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author MSI
- */
 public class ErrorPopup {
 
     static PrintStream ps;

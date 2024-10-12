@@ -38,9 +38,8 @@ import views.admin.TableManagerView;
 import views.employee.InformationView;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class AdminDashboardController {
 
@@ -134,7 +133,7 @@ public class AdminDashboardController {
                     return;
                 }
                 try {
-                    SessionManager.update();// Đẵng xuất
+                    SessionManager.update();// Đăng xuất
                 } catch (SQLException ex) {
                     view.showError(ex);
                 }

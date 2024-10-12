@@ -4,10 +4,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import utils.TableStatus;
 
-/**
- * @createAt Nov 28, 2020
- * @author Tran Duc Cuong<clonebmn2itt@gmail.com>
- */
 public class Table extends Model {
 
     protected int id;

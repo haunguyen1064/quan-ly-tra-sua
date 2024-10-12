@@ -7,10 +7,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import models.OrderItem;
 
-/**
- *
- * @author MSI
- */
 public class OrderItemDao extends Dao<OrderItem> {
 
     FoodItemDao foodItemDao = new FoodItemDao();

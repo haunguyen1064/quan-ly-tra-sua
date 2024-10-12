@@ -15,10 +15,6 @@ import views.employee.ChangePassView;
 import views.employee.HistoryLoginView;
 import views.employee.InformationView;
 
-/**
- *
- * @author Admin
- */
 public class InformationController {
 
     private Employee session;

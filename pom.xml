@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>kma</groupId>
-    <artifactId>restaurant-manager</artifactId>
+    <artifactId>milktea-restaurant-manager</artifactId>
     <version>1.2</version>
     <packaging>jar</packaging>
     <properties>
@@ -61,26 +61,6 @@
     <name>Quản lý quán trà sữa</name>
     <description>App quản lý quán trà sữa</description>
     <build>
-        <!--        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>  
-                    <archive>
-                        <manifest>
-                            
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>main.Runner</mainClass>
-                        </manifest>
-                    </archive>   
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>             
-                </configuration>
-            </plugin>
-        </plugins>-->
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -88,9 +68,6 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>2.3.1</version>
                     <configuration>
-                        <!--                        <source>1.8</source>
-                        <target>1.8</target>                    -->
-                        <!--<forceJavacCompilerUse>true</forceJavacCompilerUse>-->
                     </configuration>
                 </plugin>
             </plugins>
@@ -151,8 +128,6 @@
                             <Class-Path>.</Class-Path>
                         </manifestEntries>
                     </archive>
- 
-                    <!--<finalName>Crunchify/Crunchify</finalName>-->
                 </configuration>
             </plugin>
         </plugins>

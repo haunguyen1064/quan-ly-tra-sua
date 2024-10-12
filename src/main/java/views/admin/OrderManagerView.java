@@ -4,9 +4,8 @@ import javax.swing.DefaultComboBoxModel;
 import models.Order;
 
 /**
- * createAt Dec 15, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class OrderManagerView extends ManagerPaneView<Order> {
 

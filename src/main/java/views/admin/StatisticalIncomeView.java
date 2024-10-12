@@ -16,9 +16,8 @@ import javax.swing.table.DefaultTableModel;
 import utils.ErrorPopup;
 
 /**
- * createAt Jan 3, 2021
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class StatisticalIncomeView extends javax.swing.JPanel {
 

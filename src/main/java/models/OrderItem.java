@@ -3,10 +3,6 @@ package models;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- *
- * @author MSI
- */
 public class OrderItem extends Model {
 
     private int idOrder, idFoodItem, idTopping, quantity, foodPrice, toppingPrice;

@@ -10,10 +10,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import utils.ErrorPopup;
 
-/**
- *
- * @author Admin
- */
 public class ChangePassView extends javax.swing.JFrame {
 
     public JButton getBtnConfirm() {

@@ -5,10 +5,6 @@
  */
 package controllers.employee;
 
-/**
- *
- * @author Admin
- */
 public class GetDayOfMonth {
 
     int month, year, day;

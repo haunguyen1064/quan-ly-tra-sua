@@ -5,9 +5,8 @@ import models.FoodCategory;
 import utils.RandomColor;
 
 /**
- * createAt Dec 13, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class FoodCategoryPane extends javax.swing.JPanel {
 

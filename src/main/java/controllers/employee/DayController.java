@@ -18,10 +18,6 @@ import utils.ErrorPopup;
 import views.employee.DayView;
 import views.employee.WorkDayInfoView;
 
-/**
- *
- * @author Admin
- */
 public class DayController {
 
     private DayView view;

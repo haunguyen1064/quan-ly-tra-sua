@@ -11,9 +11,8 @@ import views.popup.SelectCustomerPopupView;
 import views.popup.ShipmentPopupView;
 
 /**
- * createAt Dec 31, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class ShipmentPopupController {
 

@@ -5,9 +5,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
- * createAt Dec 24, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public abstract class Dao<T> {
 

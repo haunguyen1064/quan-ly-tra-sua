@@ -17,9 +17,8 @@ import views.ChooseImageView;
 import views.popup.FoodItemPopupView;
 
 /**
- * createAt Dec 17, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  * Popup controller mẫu
  */
 public class FoodItemPopupController {

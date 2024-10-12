@@ -18,9 +18,8 @@ import org.jfree.chart.title.Title;
 import org.jfree.data.category.CategoryDataset;
 
 /**
- * createAt Jan 3, 2021
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class LineChart {
 

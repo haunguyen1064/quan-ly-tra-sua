@@ -8,9 +8,8 @@ import javax.swing.JSpinner;
 import models.FoodItem;
 
 /**
- * createAt Dec 14, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class ToppingPopupView extends javax.swing.JFrame {
 

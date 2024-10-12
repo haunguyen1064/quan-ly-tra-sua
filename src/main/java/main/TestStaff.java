@@ -6,9 +6,8 @@ import models.Employee;
 import views.EmployeeDashboardView;
 
 /**
- * createAt Dec 23, 2020
  *
- * @author Đỗ Tuấn Anh <daclip26@gmail.com>
+ * @author Nguyễn Thanh Hậu
  */
 public class TestStaff {
 
