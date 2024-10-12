@@ -74,7 +74,6 @@ public class EmployeeDashboardController {
         MenuItem menuQLDDH = new MenuItem("QLDDH", im.getIcon("purchase_order_25px.png"), "Quản lý đơn đặt hàng");
         MenuItem menuTL = new MenuItem("TL", im.getIcon("settings_25px.png"), "Thiết lập");
         menuTL.addSubMenu(new MenuItem("TTCN", im.getIcon("about_25px.png"), "Thông tin cá nhân"));
-        menuTL.addSubMenu(new MenuItem("TLGD", im.getIcon("contrast_25px.png"), "Giao diện"));
         menuTL.addSubMenu(new MenuItem("TT", im.getIcon("help_25px.png"), "About us"));
         sideBarController.addMenu(menuKH, menuQLDDH, menuTL);
         sideBarController.addMenuEvent(this::onMenuChange);

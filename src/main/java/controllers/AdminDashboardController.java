@@ -116,7 +116,6 @@ public class AdminDashboardController {
         menuTK.addSubMenu(new MenuItem("TKNV", im.getIcon("user_25px.png"), "Thống kê nhân viên"));
         menuTK.addSubMenu(new MenuItem("TKDT", null, "Thống kê doanh thu"));
         menuTL.addSubMenu(new MenuItem("TTCN", im.getIcon("about_25px.png"), "Thông tin cá nhân"));
-        menuTL.addSubMenu(new MenuItem("TLGD", im.getIcon("contrast_25px.png"), "Giao diện"));
         menuTL.addSubMenu(new MenuItem("TT", im.getIcon("help_25px.png"), "About us"));
         sideBarController.addMenu(menuQLNV, menuQLHH, menuQLDH, menuTK, menuTL);
         sideBarController.addMenuEvent(this::onMenuChange);
