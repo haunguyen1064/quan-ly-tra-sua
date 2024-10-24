@@ -53,7 +53,7 @@ public class FoodItemPane extends javax.swing.JPanel {
         lbName = new javax.swing.JLabel();
         lbPrice = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 204, 204));
+        setBackground(new java.awt.Color(250, 212, 192));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         setMaximumSize(new java.awt.Dimension(300, 75));
@@ -87,7 +87,7 @@ public class FoodItemPane extends javax.swing.JPanel {
         lbName.setPreferredSize(new java.awt.Dimension(20, 20));
 
         lbPrice.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        lbPrice.setForeground(new java.awt.Color(255, 0, 0));
+        lbPrice.setForeground(new java.awt.Color(0, 0, 0));
         lbPrice.setText("50,000 VND / Ly");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

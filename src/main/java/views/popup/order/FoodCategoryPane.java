@@ -1,6 +1,9 @@
 package views.popup.order;
 
 import java.awt.Color;
+import java.util.HashMap;
+import java.util.Map;
+
 import models.FoodCategory;
 import utils.RandomColor;
 
@@ -12,12 +15,24 @@ public class FoodCategoryPane extends javax.swing.JPanel {
 
     FoodCategory foodCategory;
 
+    private static final Map<String, Color> CATEGORY_COLORS = new HashMap<>();
+
+    static {
+        CATEGORY_COLORS.put("Đồ Ăn Vặt", new Color(231, 76, 60));      // Rich Tomato Red
+        CATEGORY_COLORS.put("Trà Sữa", new Color(245, 222, 179));  // Creamy Beige
+        CATEGORY_COLORS.put("Cà Phê", new Color(101, 67, 33));     // Deep Espresso Brown
+        CATEGORY_COLORS.put("Topping", new Color(147, 197, 114));  // Fresh Pistachio Green
+    }
+
     public FoodCategoryPane(FoodCategory fc) {
         this.foodCategory = fc;
         initComponents();
         lbName.setText(fc.getName());
-        Color bg = RandomColor.getColor();
+        // Color bg = RandomColor.getColor();
+        // Color bgText = RandomColor.getContrastColor(bg);
+        Color bg = CATEGORY_COLORS.getOrDefault(fc.getName(), Color.GRAY);  // Default to gray if not found
         Color bgText = RandomColor.getContrastColor(bg);
+
         setBackground(bg);
         lbName.setForeground(bgText);
     }

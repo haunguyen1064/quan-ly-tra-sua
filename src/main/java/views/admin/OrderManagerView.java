@@ -25,7 +25,7 @@ public class OrderManagerView extends ManagerPaneView<Order> {
         tableModel.addColumn("Loại");
         tableModel.addColumn("Trạng thái");
         tableModel.addColumn("Ngày lập HD");
-        tableModel.addColumn("Ngày thanh toán");
+        // tableModel.addColumn("Ngày thanh toán");
         tableModel.addColumn("Đã Thanh Toán");
         this.getCboSearchField().setModel(new DefaultComboBoxModel(list));
     }

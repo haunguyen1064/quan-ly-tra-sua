@@ -5,6 +5,7 @@
  */
 package views.popup;
 
+import java.text.SimpleDateFormat;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
@@ -147,6 +148,8 @@ public class CustomerPopupView extends javax.swing.JFrame implements PopupView {
         jPanel3.add(txtPhoneNumber, gridBagConstraints);
 
         spnBirthday.setModel(new javax.swing.SpinnerDateModel(new java.util.Date(955342800000L), null, new java.util.Date(), java.util.Calendar.DAY_OF_MONTH));
+        JSpinner.DateEditor editor = new JSpinner.DateEditor(spnBirthday, "dd/MM/yyyy");
+        spnBirthday.setEditor(editor);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;

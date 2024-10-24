@@ -3,6 +3,7 @@ package models;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 
 
 public class Customer extends Model {
@@ -73,7 +74,7 @@ public class Customer extends Model {
     @Override
     public Object[] toRowTable() {
         return new Object[]{
-            this.getId(), this.getName(), this.getPhoneNumber(), this.getAddress(), this.getBirthday()
+            this.getId(), this.getName(), this.getPhoneNumber(), this.getAddress(), this.getBirthday() == null ? null : new SimpleDateFormat("dd/MM/yyyy").format(this.getBirthday())
         };
     }
 

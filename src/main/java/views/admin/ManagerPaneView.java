@@ -26,6 +26,7 @@ public abstract class ManagerPaneView<T extends Model> extends JPanel {
     public ManagerPaneView() {
         initComponents();
         tblData.getTableHeader().setFont(new Font("Segoe UI", Font.BOLD, 14));
+        tblData.getTableHeader().setBackground(new Color(233, 239, 239));
         tblData.getTableHeader().setOpaque(false);
         ((DefaultTableCellRenderer) tblData.getTableHeader().getDefaultRenderer())
                 .setHorizontalAlignment(JLabel.LEFT);
@@ -104,6 +105,12 @@ public abstract class ManagerPaneView<T extends Model> extends JPanel {
         return tblData;
     }
 
+    public void selectFirstRow() {
+        if (tblData.getRowCount() > 0) {
+            tblData.setRowSelectionInterval(0, 0);
+        }
+    }
+
     // Lấy id các hàng đc chọn
     public int[] getSelectedIds() {
 
@@ -134,6 +141,7 @@ public abstract class ManagerPaneView<T extends Model> extends JPanel {
             for (T item : tableData) {
                 tableModel.addRow(item.toRowTable());
             }
+            selectFirstRow();
         } catch (Exception e) {
             showError(e);
         }

@@ -31,15 +31,42 @@ INSERT INTO `food_item` (`id`, `name`, `description`, `urlImage`, `unitName`, `u
 (5, 'Trà Sữa Okinawa', NULL, NULL, 'Ly', 40000, 2),
 (6, 'Trà Sữa Matcha', NULL, NULL, 'Ly', 45000, 2),
 (7, 'Trà Sữa Socola', NULL, NULL, 'Ly', 35000, 2),
-(8, 'Trà Đào Cam Sả', NULL, NULL, 'Ly', 40000, 1),
-(9, 'Trà Chanh Leo', NULL, NULL, 'Ly', 35000, 1),
-(10, 'Trà Xoài', NULL, NULL, 'Ly', 35000, 1),
-(11, 'Trà Vải', NULL, NULL, 'Ly', 35000, 1),
-(12, 'Trà Dâu', NULL, NULL, 'Ly', 35000, 1),
-(13, 'Trà Tắc Xí Muội', NULL, NULL, 'Ly', 30000, 1),
-(14, 'Trà Tắc', NULL, NULL, 'Ly', 25000, 1),
-(15, 'Trà Sữa Trân Châu Đường Đen', NULL, NULL, 'Ly', 45000, 2),
-(16, 'Trà Sữa Khoai Môn', NULL, NULL, 'Ly', 40000, 2);
+
+INSERT INTO `food_item` (`id`, `name`, `description`, `urlImage`, `unitName`, `unitPrice`, `idCategory`) VALUES
+(24, 'Bánh Tráng Trộn', NULL, NULL, 'Túi', 15000, 1),
+(25, 'Phá Lấu', NULL, NULL, 'Chén', 30000, 1),
+(26, 'Bánh Mì Nướng Muối Ớt', NULL, NULL, 'Cái', 20000, 1),
+(27, 'Bắp Xào', NULL, NULL, 'Phần', 20000, 1),
+(8, 'Khoai Lang Lắc', NULL, NULL, 'Phần', 25000, 1),
+(9, 'Trứng Cút Chiên', NULL, NULL, 'Phần', 15000, 1),
+(10, 'Bánh Tiêu', NULL, NULL, 'Cái', 5000, 1),
+(11, 'Gỏi Cuốn', NULL, NULL, 'Cuốn', 10000, 1),
+(12, 'Chuối Nếp Nướng', NULL, NULL, 'Cái', 15000, 1),
+(13, 'Bò Bía', NULL, NULL, 'Cuốn', 10000, 1),
+(14, 'Bánh Flan', NULL, NULL, 'Chén', 12000, 1);
+
+INSERT INTO food_item (id, name, description, urlImage, unitName, unitPrice, idCategory) VALUES
+(33, 'Cà Phê Sữa Đá', NULL, NULL, 'Ly', 25000, 3),
+(34, 'Cà Phê Trứng', NULL, NULL, 'Ly', 40000, 3),
+(35, 'Cà Phê Phin', NULL, NULL, 'Ly', 20000, 3),
+(36, 'Cà Phê Dừa', NULL, NULL, 'Ly', 30000, 3),
+(37, 'Cà Phê Đen', NULL, NULL, 'Ly', 22000, 3),
+(38, 'Cà Phê Nóng', NULL, NULL, 'Ly', 20000, 3),
+(39, 'Cà Phê Sữa Nóng', NULL, NULL, 'Ly', 25000, 3),
+(31, 'Cà Phê Hạt', NULL, NULL, 'Ly', 35000, 3),
+(32, 'Cà Phê Latte', NULL, NULL, 'Ly', 45000, 3);
+
+INSERT INTO food_item (id, name, description, urlImage, unitName, unitPrice, idCategory) VALUES
+(41, 'Trân Châu Đen', NULL, NULL, 'Gram', 5000, 4),
+(42, 'Trân Châu Trắng', NULL, NULL, 'Gram', 5000, 4),
+(43, 'Pudding', NULL, NULL, 'Gram', 7000, 4),
+(44, 'Thạch Rau Câu', NULL, NULL, 'Gram', 6000, 4),
+(45, 'Kem', NULL, NULL, 'Gram', 10000, 4),
+(46, 'Siro Ngọt', NULL, NULL, 'Gram', 3000, 4),
+(47, 'Sữa Đặc', NULL, NULL, 'Gram', 2000, 4),
+(49, 'Bột Matcha', NULL, NULL, 'Gram', 12000, 4),
+(50, 'Quả Mứt', NULL, NULL, 'Gram', 9000, 4);
+
 
 
 

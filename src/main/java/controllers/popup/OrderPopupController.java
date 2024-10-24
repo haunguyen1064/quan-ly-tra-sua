@@ -277,20 +277,20 @@ public class OrderPopupController {
                 ec.onError(e);
             }
         });
-        view.getBtnShipManager().addActionListener(evt -> {
-            if (order.getType() != OrderType.ONLINE) {
-                view.showError("Bạn chỉ có thể ship đơn online");
-                return;
-            }
-            shipmentPopupController.add(new ShipmentPopupView(), order.getId(), () -> view.showMessage("Tạo / sửa đơn ship thành công!"), view::showError);
-        });
-        view.getBtnPrintOrder().addActionListener(evt -> {
-            try {
-                printOrderController.print(order.getId());
-            } catch (Exception e) {
-                view.showError("Không thể in hóa đơn");
-            }
-        });
+        // view.getBtnShipManager().addActionListener(evt -> {
+        //     if (order.getType() != OrderType.ONLINE) {
+        //         view.showError("Bạn chỉ có thể ship đơn online");
+        //         return;
+        //     }
+        //     shipmentPopupController.add(new ShipmentPopupView(), order.getId(), () -> view.showMessage("Tạo / sửa đơn ship thành công!"), view::showError);
+        // });
+        // view.getBtnPrintOrder().addActionListener(evt -> {
+        //     try {
+        //         printOrderController.print(order.getId());
+        //     } catch (Exception e) {
+        //         view.showError("Không thể in hóa đơn");
+        //     }
+        // });
         view.getBtnCancelOrder().addActionListener(evt -> {
             try {
                 int value = JOptionPane.showConfirmDialog(null, "Bạn có chắc muốn hủy hóa đơn?");
