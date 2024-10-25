@@ -268,11 +268,16 @@ public class OrderPopupController {
                 int paidAmount = Integer.parseInt(rawInput);
                 if (order.getFinalAmount() > paidAmount) {
                     JOptionPane.showMessageDialog(null, "Bạn còn phải thanh toán " + formatter.format(order.getFinalAmount() - paidAmount) + " VND");
+                    order.setPaidAmount(paidAmount);
+                    updateAmount(view, order);
                 } else {
                     JOptionPane.showMessageDialog(null, "Bạn đã thanh toán xong");
+                    order.setPaidAmount(paidAmount);
+                    updateAmount(view, order);
+                    editOrder(view, order);
+                    updateAmount(view, order);
+                    sc.onSuccess();
                 }
-                order.setPaidAmount(paidAmount);
-                updateAmount(view, order);
             } catch (Exception e) {
                 ec.onError(e);
             }

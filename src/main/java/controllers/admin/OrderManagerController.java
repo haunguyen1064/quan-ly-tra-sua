@@ -93,11 +93,12 @@ public class OrderManagerController extends ManagerController {
         try {
             Employee employee = SessionManager.getSession().getEmployee();
             ArrayList<Order> orders;
-            if (employee.getPermission() == EmployeePermission.MANAGER) {
-                orders = orderDao.getAll();
-            } else {
-                orders = orderDao.getAll(employee.getId());
-            }
+            // if (employee.getPermission() == EmployeePermission.MANAGER) {
+            //     orders = orderDao.getAll();
+            // } else {
+            //     orders = orderDao.getAll(employee.getId());
+            // }
+            orders = orderDao.getAll();
             view.setTableData(orders);
         } catch (Exception e) {
             view.showError(e);

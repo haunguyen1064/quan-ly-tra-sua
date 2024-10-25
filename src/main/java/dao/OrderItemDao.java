@@ -40,10 +40,10 @@ public class OrderItemDao extends Dao<OrderItem> {
         PreparedStatement stmt = conn.prepareStatement(query);
         stmt.setInt(1, t.getIdOrder());
         stmt.setInt(2, t.getIdFoodItem());
-        stmt.setInt(3, t.getIdTopping());
+        stmt.setInt(3, 41);
         stmt.setInt(4, t.getQuantity());
         stmt.setInt(5, t.getFoodPrice());
-        stmt.setInt(6, t.getToppingPrice());
+        stmt.setInt(6,0);
         stmt.setNString(7, t.getNote());
         stmt.setInt(8, t.getQuantity());
         stmt.executeUpdate();

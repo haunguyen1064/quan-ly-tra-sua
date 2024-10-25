@@ -136,6 +136,7 @@ public class ToppingPopupView extends javax.swing.JFrame {
         jPanel1.add(jLabel5, gridBagConstraints);
 
         btnMinus.setText("-");
+        btnMinus.setFocusable(false);
         btnMinus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMinusActionPerformed(evt);
