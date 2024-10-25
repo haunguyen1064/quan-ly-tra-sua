@@ -10,8 +10,8 @@ VALUES (1, '0909175581', 'Nguyễn Ngọc Trung', 'TP HCM', '2024-04-09 17:00:00
 
 
 INSERT INTO `employee` (`id`, `username`, `password`, `name`, `phoneNumber`, `startDate`, `permissionName`, `permissionId`)
-VALUES (NULL, 'admin', 'admin', 'Admin', NULL, '2024-09-24 00:00:00','Quản lý', 1),
-       (NULL, 'nhanvien', '12345', 'Nhân Viên 1', '0909175581', '2024-09-24 12:15:08','Nhân viên', 2);
+VALUES (NULL, 'admin', 'admin', 'Admin', NULL, '2024-09-24 00:00:00','Quản lý', 'manager'),
+       (NULL, 'nhanvien', '12345', 'Nhân Viên 1', '0909175581', '2024-09-24 12:15:08','Nhân viên', 'staff');
 
 
 INSERT INTO `food_category` (`id`, `name`, `slug`)

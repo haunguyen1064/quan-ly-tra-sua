@@ -106,18 +106,19 @@ public class AdminDashboardController {
         MenuItem menuQLNV = new MenuItem("QLNV", im.getIcon("user_groups_25px.png"), "Quản lý nhân viên");
         MenuItem menuQLHH = new MenuItem("QLHH", im.getIcon("cardboard_box_25px.png"), "Quản lý hàng hóa");
         MenuItem menuQLDH = new MenuItem("QLDH", im.getIcon("shopping_cart_25px.png"), "Quản lý đặt hàng");
-        MenuItem menuTK = new MenuItem("TK", im.getIcon("increase_25px.png"), "Thống kê");
-        MenuItem menuTL = new MenuItem("TL", im.getIcon("settings_25px.png"), "Thiết lập");
-        menuQLHH.addSubMenu(new MenuItem("QLLM", null, "Quản lý loại món"));
+        // MenuItem menuTK = new MenuItem("TK", im.getIcon("increase_25px.png"), "Thống kê");
+        // MenuItem menuTL = new MenuItem("TL", im.getIcon("settings_25px.png"), "Thiết lập");
+        MenuItem about = new MenuItem("TT", im.getIcon("help_25px.png"), "About us");
+        menuQLHH.addSubMenu(new MenuItem("QLLM", im.getIcon("futures_25px.png"), "Quản lý loại món"));
         menuQLHH.addSubMenu(new MenuItem("QLMA", im.getIcon("food_25px.png"), "Quản lý món ăn"));
         menuQLDH.addSubMenu(new MenuItem("QLB", im.getIcon("table_25px.png"), "Quản lý bàn"));
         menuQLDH.addSubMenu(new MenuItem("QLKH", im.getIcon("technical_support_25px.png"), "Quản lý khách hàng"));
         menuQLDH.addSubMenu(new MenuItem("QLDDH", im.getIcon("purchase_order_25px.png"), "Quản lý đơn đặt hàng"));
-        menuTK.addSubMenu(new MenuItem("TKNV", im.getIcon("user_25px.png"), "Thống kê nhân viên"));
-        menuTK.addSubMenu(new MenuItem("TKDT", null, "Thống kê doanh thu"));
-        menuTL.addSubMenu(new MenuItem("TTCN", im.getIcon("about_25px.png"), "Thông tin cá nhân"));
-        menuTL.addSubMenu(new MenuItem("TT", im.getIcon("help_25px.png"), "About us"));
-        sideBarController.addMenu(menuQLNV, menuQLHH, menuQLDH, menuTK, menuTL);
+        // menuTK.addSubMenu(new MenuItem("TKNV", im.getIcon("user_25px.png"), "Thống kê nhân viên"));
+        // menuTK.addSubMenu(new MenuItem("TKDT", null, "Thống kê doanh thu"));
+        // menuTL.addSubMenu(new MenuItem("TTCN", im.getIcon("about_25px.png"), "Thông tin cá nhân"));
+        // menuTL.addSubMenu(new MenuItem("TT", im.getIcon("help_25px.png"), "About us"));
+        sideBarController.addMenu(menuQLNV, menuQLHH, menuQLDH, about);
         sideBarController.addMenuEvent(this::onMenuChange);
     }
 
@@ -177,28 +178,28 @@ public class AdminDashboardController {
             case "QLDH":
             case "TL":
                 break;
-            case "TK"://Thống kê chung
-                view.setPanel(statisticalView);
-                statisticalController.setView(statisticalView);
-                statisticalController.initData();
-                break;
-            case "TKNV"://Thống kê nhân viên
-                view.setPanel(statisticalEmployeeView);
-                statisticalEmployeeController.setView(statisticalEmployeeView);
-                statisticalEmployeeController.initData();
-                break;
-            case "TKDT"://Thống kê doanh thu
-                view.setPanel(statisticalIncomeView);
-                statisticalIncomeController.setView(statisticalIncomeView);
-                statisticalIncomeController.initData();
-                break;
+            // case "TK"://Thống kê chung
+            //     view.setPanel(statisticalView);
+            //     statisticalController.setView(statisticalView);
+            //     statisticalController.initData();
+            //     break;
+            // case "TKNV"://Thống kê nhân viên
+            //     view.setPanel(statisticalEmployeeView);
+            //     statisticalEmployeeController.setView(statisticalEmployeeView);
+            //     statisticalEmployeeController.initData();
+            //     break;
+            // case "TKDT"://Thống kê doanh thu
+            //     view.setPanel(statisticalIncomeView);
+            //     statisticalIncomeController.setView(statisticalIncomeView);
+            //     statisticalIncomeController.initData();
+            //     break;
             case "TT":
                 view.setPanel(aboutView);
                 break;
-            case "TTCN": // Thống tin cá nhân
-                view.setPanel(informationView);
-                informationController.setView(informationView);
-                break;
+            // case "TTCN": // Thống tin cá nhân
+            //     view.setPanel(informationView);
+            //     informationController.setView(informationView);
+            //     break;
             default:
                 view.setPanel(homeView);
                 break;

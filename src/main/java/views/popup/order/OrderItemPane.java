@@ -36,7 +36,7 @@ public class OrderItemPane extends javax.swing.JPanel {
         } else {
             lbToppingName.setText(topping.getName());
         }
-        lbPrice.setText(orderItem.getFoodPrice() + orderItem.getToppingPrice() + "");
+        lbPrice.setText(formatter.format(orderItem.getFoodPrice()) + orderItem.getToppingPrice() + "");
         String urlImage = orderItem.getFoodItem().getUrlImage();
         if (urlImage != null && !urlImage.isEmpty()) {
             ImageIcon ic = im.getImage(urlImage);

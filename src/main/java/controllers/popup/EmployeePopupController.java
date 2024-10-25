@@ -92,7 +92,7 @@ public class EmployeePopupController {
         e.setName(name);
         e.setPhoneNumber(phoneNumber);
         e.setPermission(EmployeePermission.getByName(view.getCboPermission().getSelectedItem().toString()));
-        e.setSalary(salary);
+        // e.setSalary(salary);
         employeeDao.save(e);
         return;
     }

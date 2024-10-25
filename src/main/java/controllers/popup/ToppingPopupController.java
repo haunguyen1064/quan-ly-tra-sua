@@ -66,9 +66,9 @@ public class ToppingPopupController {
     private void updateAmount(ToppingPopupView view) {
         int amount = (int) view.getSpnFoodPrice().getValue();
         FoodItem topping = (FoodItem) view.getCboTopping().getSelectedItem();
-        if (topping != null) {
-            amount += topping.getUnitPrice();
-        }
+        // if (topping != null) {
+        //     amount += topping.getUnitPrice();
+        // }
         int quantity = (int) view.getSpnQuantity().getValue();
         amount *= quantity;
         view.getLbAmount().setText(formatter.format(amount));
@@ -80,8 +80,8 @@ public class ToppingPopupController {
             orderItem.setFoodItem(foodItem);
             orderItem.setFoodPrice((int) view.getSpnFoodPrice().getValue());
             if (foodItem.getIdCategory() == 2) {
-                orderItem.setToppingItem((FoodItem) view.getCboTopping().getSelectedItem());
-                orderItem.setToppingPrice(orderItem.getToppingItem().getUnitPrice());
+                // orderItem.setToppingItem((FoodItem) view.getCboTopping().getSelectedItem());
+                // orderItem.setToppingPrice(orderItem.getToppingItem().getUnitPrice());
             } else {
                 orderItem.setToppingItem(foodItemDao.get(1));
                 orderItem.setToppingPrice(0);
