@@ -30,7 +30,7 @@ public class FoodCategoryPane extends javax.swing.JPanel {
         lbName.setText(fc.getName());
         // Color bg = RandomColor.getColor();
         // Color bgText = RandomColor.getContrastColor(bg);
-        Color bg = CATEGORY_COLORS.getOrDefault(fc.getName(), Color.GRAY);  // Default to gray if not found
+        Color bg = CATEGORY_COLORS.getOrDefault(fc.getName(), Color.ORANGE);  // Default to gray if not found
         Color bgText = RandomColor.getContrastColor(bg);
 
         setBackground(bg);

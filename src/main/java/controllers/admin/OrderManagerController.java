@@ -69,7 +69,7 @@ public class OrderManagerController extends ManagerController {
     public void actionDelete() {
         int selectedIds[] = view.getSelectedIds();
         try {
-            if (JOptionPane.showConfirmDialog(null, "Không thể khổi phục\nXác nhận xóa hàng loạt?", "Xóa", ERROR_MESSAGE) != YES_OPTION) {
+            if (JOptionPane.showConfirmDialog(null, "Không thể khổi phục\nXác nhận xóa?", "Xóa", ERROR_MESSAGE) != YES_OPTION) {
                 return;
             }
             for (int i = 0; i < selectedIds.length; i++) {
